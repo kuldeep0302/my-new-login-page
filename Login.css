@@ -28,11 +28,7 @@ body {
     line-height: 20px;
     padding-top: 80px;
     padding-left: 10px;
-    padding-right: 190px;
-    
-  
-
-    
+    /*padding-right: 190px;*/
 }
 
 .first {
@@ -58,18 +54,19 @@ body {
     display: grid;
     padding: 30px 80px 50px 80px;
     max-width: 518px;
-    max-height: 540px;
+    max-height: 465px;
     border-radius: 20px;
     background-color: white;
     /* font-size: 22px; */
-    padding-right: 93px;
-    padding-top: 88px;
+    /*padding-right: 93px;
+    padding-top: 88px;*/
 }
 
 h2 {
     text-align: left;
     margin-bottom: 63px;
     margin-top: 55px;
+    margin-top: 30px;
 }
 /* }
 .email_pass{
@@ -92,7 +89,7 @@ input[type="password"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: -6px;
 }
 /* .login_box{
     width: 280px;
@@ -380,7 +377,7 @@ animation-duration: 10ms;
     width: 100px;
 }
 
-.right-div .right_image{
+.right-div .right_image {
     width: 81%;
     height: auto;
     margin-top: -74px;
@@ -389,8 +386,7 @@ animation-duration: 10ms;
     font-weight: 600;
     line-height: 20px;
     padding-top: 80px;
-    padding-left: 40px;
-
+    padding-left: -6px;
 }
 
 .right_image1{
@@ -415,11 +411,15 @@ animation-duration: 10ms;
     font-weight: 600;
     line-height: 20px;
 }
-.nural_sales{
-    margin-right: -78px;
+.nural_sales {
+    /*margin-right: -78px;*/
     color: darkblue;
+    margin-right: 109px;
 }
 .footer_logo{
     margin-left: 34px;
     margin-top: 39px;
+}
+.Login_word{
+
 }
