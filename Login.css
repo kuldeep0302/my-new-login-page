@@ -1,0 +1,425 @@
+/* body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fff;
+
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+} */
+.first .heading1{
+
+    text-align: center;
+    font-size: 23px;
+    font-size: 36px;
+    font-family: Open sans;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 190px;
+    
+  
+
+    
+}
+
+.first {
+    display: flex;
+}
+
+body {
+    background-color: #EFF3FE;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.login-form {
+    width: 387pxpx;
+    padding: 50px;
+    border: 0px solid #ccc;
+    border-radius: 62px;
+    box-shadow: 1 0 200px #ccc;
+    margin: 0 auto;
+    text-align: left;
+    color: #32499F;
+    margin: auto;
+    display: grid;
+    padding: 30px 80px 50px 80px;
+    max-width: 518px;
+    max-height: 540px;
+    border-radius: 20px;
+    background-color: white;
+    /* font-size: 22px; */
+    padding-right: 93px;
+    padding-top: 88px;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 63px;
+    margin-top: 55px;
+}
+/* }
+.email_pass{
+    border-bottom: 1px solid grey;
+
+} */
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid grey; */
+}
+.jaina img{
+    width: 102px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/* .login_box{
+    width: 280px;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    /* color: white; */
+/* }
+.login_box h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px;
+    margin-bottom: 50px;
+    padding: 13px;
+}
+.text_box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px;
+} */ */
+
+input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #140558;
+    color: #fff;
+    border: none;
+    padding: 18px 29px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+.login-container {
+    width: 100%;
+}
+
+.login-details {
+    float: left;
+    width: 50%;
+}
+
+image {
+    float: right;
+    width: 50%;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.jss8 undefined {
+    display: flex;
+}
+
+.jss49 {
+    color: #32499F;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.jss46 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.MuiTypography-body1 {
+    font-size: 1rem;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.MuiTypography-root {
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.powered img{
+    width: 75px;
+    height: 15px;
+}
+form .Account {
+    font-size: 1rem;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.powered{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .jss48 undefined{
+    /* position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 25px;
+    border: none;
+    background: none;
+    color: #333;
+    position: absolute;
+    bottom: 100px;
+    overflow-clip-margin: content-box;
+    overflow: clip; */
+    width: 76%;
+}
+  
+   .MuiTypography-root jss49 jss46 MuiTypography-body1{
+  
+    position: fixeds; 
+    position: relative;
+    color: blue; 
+     color: #32499F; 
+     font-weight: bold;
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 20px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+   .toggle-password {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+/*   
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  */
+  button {
+    padding: 10px 20px;
+    background-color: #1d0c7e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    width: 100%;
+    margin-top: 34px;
+}
+  
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+/* " class="jss8 undefined"> */
+form i{
+    position: absolute;
+    font-size: 25px;
+    color: ;
+    margin: 15px 0 0 -45;
+}
+i.fa-lock{
+    margin-top: 35px;
+
+}
+.right-div{
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+/* .first .login-form .MuiInputBase-input MuiInput-input{
+font: inherit;
+color: currentColor;
+width: 100%;
+border: 0;
+height: 1.1876em;
+margin: 0;
+display: block;
+padding: 6px 0 7px;
+min-width: 0;
+background: none;
+box-sizing: content-box;
+animation-name: mui-auto-fill-cancel;
+letter-spacing: inherit;
+animation-duration: 10ms;
+-webkit-tap-highlight-color: transparent;
+} */
+.Footer_logo {
+    /* text-align: center; */
+    /* display: flex;
+    align-items: center;
+    color: #32499F; */
+    text-align: center;
+    margin-left: 361px;
+    bottom: 0;
+
+
+}
+
+.Footer_logo img {
+    align-items: center;
+    height: 50px;
+    margin-right: 469px;
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}  
+
+.Footer_logo p {
+    /* font-size: 18px;
+    width: 61px;
+    height: 36px;
+    margin-right: 473px; */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.powered_by {
+    margin: 223px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #32499F;
+
+}
+.powered_by img{
+    width: 100px;
+}
+
+.right-div .right_image{
+    width: 81%;
+    height: auto;
+    margin-top: -74px;
+    font-size: 36px;
+    font-family: Open sans;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 80px;
+    padding-left: 40px;
+
+}
+
+.right_image1{
+    position: relative;
+}
+.remember_me{
+    display: flex;
+}
+.fpass{
+    float: right;
+    margin: -28px;
+}
+.create_account{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.right_div .heading1{
+    font-size: 36px;
+    font-size: 36px;
+    font-family: Open sans;
+    font-weight: 600;
+    line-height: 20px;
+}
+.nural_sales{
+    margin-right: -78px;
+    color: darkblue;
+}
+.footer_logo{
+    margin-left: 34px;
+    margin-top: 39px;
+}

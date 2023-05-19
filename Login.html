@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="Login.css">
+</head>
+
+<body>
+    <!-- <div class="heading1">
+        <h1>Nural Sales</h1>
+    </div> -->
+    <div class="first">
+        <div class="login-form">
+            <div class="jaina">
+                <img src="Photos/zalana.jpg" style="margin: auto;" /></div>
+            <h2>Login in to Your Account</h2>
+            <form>
+               
+                <label for="Email">Email:</label>
+                <input type="Email" id="email" name="email" required>
+                <!-- <input aria-invalid="true" type="text" class="MuiInputBase-input MuiInput-input" value=""> -->
+                <i class="far fa-envelope"></i>
+                <br>
+                <!-- <label for="password">Password:</label> -->
+                <!-- <input type="password" id="password" name="password" required>s -->
+                <label>Password:</label>
+                <input type="password" id="password"> 
+
+                <i class="fas fa-lock"></i>
+
+                <!-- <div class="login_box">
+                    <h1>Login</h1>
+                    <div class="text_box">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
+            <div class="text_box">
+                    <i class="fas fa-lock"></i>
+                <input type="password" placeholder="password">
+            </div>
+            <input type="button" class="btn" value="sign in">
+                </div> -->
+
+                <span class="toggle-password" onclick="togglePassword()"></span>
+                <br>
+                <div>
+                <div class="remember_me">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                <label for="remember-me">Remember me</label></div>
+                <!-- <p>Forgot your password? <a href="forgot_password.html">Click here</a> to reset it.</p> -->
+<div class="fpass">
+                <a href="Forgot_password.html">Forgot password?</a></div></div>
+
+
+
+                <button type="submit" class="btn btn-primary">Login</button>
+                <!-- <button id="forgot-password">Forgot Password?</button> -->
+
+
+                <br>
+                <div class="create_account">
+                <p class="Account">Do you have any Account?</p>
+                <a href="Create_your_account.html">Create Your Account</a></div>
+        </div>
+        <div class="right-div">
+            <div class="nural_sales"><p class="heading1">Nural Services</p></div>
+           <div class="right_image1">
+            <img src="Photos/services.png" alt="custom" class="right_image" ></div>
+            <!-- <div class="powered"> -->
+                <div class="footer_logo">
+                    <p><span class="powered_by">
+                        Powered By 
+                        <img src="Photos/Footer logo.png"
+                            alt="">
+            </span></p>
+
+           
+        </div>
+    <!-- </form> -->
+
+
+
+        <script>const form = document.querySelector('form');
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                const email = document.querySelector('#email').value;
+                const password = document.querySelector('#password').value;
+                const rememberMe = document.querySelector('#remember-me').checked;
+
+                // validate email and password
+                // save password if remember me is checked
+                // redirect user to dashboard
+            });
+            function togglePassword() {
+                var passwordField = document.getElementById("password");
+                var toggleBtn = document.querySelector(".toggle-password");
+
+                if (passwordField.type === "password") {
+                    passwordField.type = "text";
+                    toggleBtn.innerHTML = "Hide";
+                } else {
+                    passwordField.type = "password";
+                    toggleBtn.innerHTML = "Show";
+                }
+            }
+
+
+
+        </script>
+
+
+</body>
+
+</html>
